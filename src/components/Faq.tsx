@@ -11,7 +11,7 @@ function PlusIcon(props: React.ComponentProps<'svg'>) {
 
 export default function Faq() {
   return (
-    <div className="flex flex-col items-center gap-8 pt-12 pb-8 px-4">
+    <div className="flex flex-col items-center gap-8 pt-24 pb-8 px-4">
       <h1 className="text-xl text-center font-bold leading-tight">
         Frequently Asked Questions
       </h1>

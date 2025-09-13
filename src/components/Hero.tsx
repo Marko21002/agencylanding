@@ -2,7 +2,7 @@ export default function Hero() {
   return (
     <div className="flex flex-col items-center gap-12  pt-18 px-4">
       <div className="flex flex-col items-center gap-4">
-        <h1 className="text-center text-3xl font-bold">
+        <h1 className="text-center text-4xl font-bold">
           Websites Built to Grow Your Business and Drive Revenue
         </h1>
         <p className="text-center text-sm">
