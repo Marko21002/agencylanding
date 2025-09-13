@@ -6,7 +6,7 @@ export default function Services() {
       </h1>
       <div className="flex flex-col gap-4 w-full">
         <div className="w-full h-[200px] border gap-2 border-gray-500 flex flex-col py-6 items-center text-center px-4">
-          <div className="w-10 h-10 bg-gray-500"></div>
+          <div className="w-12 h-12 bg-gray-500 rounded-full"></div>
           <h2 className="text-xl font-bold">Website Design</h2>
           <p className="text-sm">
             We design beautiful websites that are easy to use and convert
@@ -14,7 +14,7 @@ export default function Services() {
           </p>
         </div>
         <div className="w-full h-[200px] border gap-2 border-gray-500 flex flex-col py-6 items-center text-center px-4">
-          <div className="w-10 h-10 bg-gray-500"></div>
+          <div className="w-12 h-12 bg-gray-500 rounded-full"></div>
           <h2 className="text-xl font-bold">Website Design</h2>
           <p className="text-sm">
             We design beautiful websites that are easy to use and convert
@@ -23,7 +23,7 @@ export default function Services() {
         </div>
 
         <div className="w-full h-[200px] border gap-2 border-gray-500 flex flex-col py-6 items-center text-center px-4">
-          <div className="w-10 h-10 bg-gray-500"></div>
+          <div className="w-12 h-12 bg-gray-500 rounded-full"></div>
           <h2 className="text-xl font-bold">Website Design</h2>
           <p className="text-sm">
             We design beautiful websites that are easy to use and convert
