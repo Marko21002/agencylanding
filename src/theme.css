@@ -1,0 +1,152 @@
+:root,
+.light,
+.light-theme {
+  --accent-1: #f2f4f6;
+  --accent-2: #ebf0f5;
+  --accent-3: #dde9f4;
+  --accent-4: #cde2f5;
+  --accent-5: #bbd8f3;
+  --accent-6: #a5cbed;
+  --accent-7: #8abae4;
+  --accent-8: #5fa3dc;
+  --accent-9: #0c94e9;
+  --accent-10: #0287d7;
+  --accent-11: #006bbc;
+  --accent-12: #063759;
+
+  --accent-a1: #2b5fc505;
+  --accent-a2: #0d63cd0c;
+  --accent-a3: #016eda1a;
+  --accent-a4: #027bec2b;
+  --accent-a5: #0478e73e;
+  --accent-a6: #0171d954;
+  --accent-a7: #016ccb70;
+  --accent-a8: #006fcb9d;
+  --accent-a9: #008fe8f3;
+  --accent-a10: #0086d7fd;
+  --accent-a11: #006bbc;
+  --accent-a12: #003255f9;
+
+  --accent-contrast: #fff;
+  --accent-surface: #e9eff5cc;
+  --accent-indicator: #0c94e9;
+  --accent-track: #0c94e9;
+}
+
+@supports (color: color(display-p3 1 1 1)) {
+  @media (color-gamut: p3) {
+    :root,
+    .light,
+    .light-theme {
+      --accent-1: oklch(96.6% 0.0031 245.7);
+      --accent-2: oklch(95.2% 0.0085 245.7);
+      --accent-3: oklch(92.9% 0.0197 245.7);
+      --accent-4: oklch(90.3% 0.0349 245.7);
+      --accent-5: oklch(87% 0.0489 245.7);
+      --accent-6: oklch(82.6% 0.0622 245.7);
+      --accent-7: oklch(77% 0.0797 245.7);
+      --accent-8: oklch(69.3% 0.1091 245.7);
+      --accent-9: oklch(64.5% 0.1621 245.7);
+      --accent-10: oklch(60.5% 0.1539 245.7);
+      --accent-11: oklch(51.5% 0.161 245.7);
+      --accent-12: oklch(32.6% 0.0783 245.7);
+
+      --accent-a1: color(display-p3 0.0431 0.2784 0.7412 / 0.017);
+      --accent-a2: color(display-p3 0.0118 0.302 0.6824 / 0.041);
+      --accent-a3: color(display-p3 0.0078 0.3882 0.8039 / 0.094);
+      --accent-a4: color(display-p3 0.0039 0.4 0.8667 / 0.151);
+      --accent-a5: color(display-p3 0.0039 0.3882 0.8431 / 0.216);
+      --accent-a6: color(display-p3 0.0039 0.3725 0.7961 / 0.297);
+      --accent-a7: color(display-p3 0.0039 0.3608 0.7451 / 0.399);
+      --accent-a8: color(display-p3 0 0.3569 0.7412 / 0.549);
+      --accent-a9: color(display-p3 0 0.4275 0.8588 / 0.728);
+      --accent-a10: color(display-p3 0 0.3804 0.7725 / 0.761);
+      --accent-a11: color(display-p3 0 0.2863 0.6588 / 0.818);
+      --accent-a12: color(display-p3 0 0.1373 0.2745 / 0.911);
+
+      --accent-contrast: #fff;
+      --accent-surface: color(display-p3 0.9176 0.9373 0.9569 / 0.8);
+      --accent-indicator: oklch(64.5% 0.1621 245.7);
+      --accent-track: oklch(64.5% 0.1621 245.7);
+    }
+  }
+}
+:root,
+.light,
+.light-theme {
+  --neutral-1: #f3f4f4;
+  --neutral-2: #eff0f1;
+  --neutral-3: #e4e7e8;
+  --neutral-4: #dbdee0;
+  --neutral-5: #d2d6d9;
+  --neutral-6: #c9ced2;
+  --neutral-7: #bdc4c8;
+  --neutral-8: #a8b1b6;
+  --neutral-9: #7b8388;
+  --neutral-10: #71797d;
+  --neutral-11: #545b5f;
+  --neutral-12: #1d2124;
+
+  --neutral-a1: #37383804;
+  --neutral-a2: #17183808;
+  --neutral-a3: #05212e13;
+  --neutral-a4: #0114261c;
+  --neutral-a5: #051a2e26;
+  --neutral-a6: #02192f2f;
+  --neutral-a7: #041f303c;
+  --neutral-a8: #011a2a51;
+  --neutral-a9: #00101a80;
+  --neutral-a10: #000f168a;
+  --neutral-a11: #000b11a8;
+  --neutral-a12: #000508e1;
+
+  --neutral-contrast: #ffffff;
+  --neutral-surface: #ffffffcc;
+  --neutral-indicator: #7b8388;
+  --neutral-track: #7b8388;
+}
+
+@supports (color: color(display-p3 1 1 1)) {
+  @media (color-gamut: p3) {
+    :root,
+    .light,
+    .light-theme {
+      --neutral-1: oklch(96.5% 0.0011 233.9);
+      --neutral-2: oklch(95.5% 0.0021 233.9);
+      --neutral-3: oklch(92.5% 0.0038 233.9);
+      --neutral-4: oklch(89.9% 0.005 233.9);
+      --neutral-5: oklch(87.4% 0.0064 233.9);
+      --neutral-6: oklch(84.9% 0.0074 233.9);
+      --neutral-7: oklch(81.5% 0.0091 233.9);
+      --neutral-8: oklch(75.4% 0.0123 233.9);
+      --neutral-9: oklch(60.5% 0.0124 233.9);
+      --neutral-10: oklch(57% 0.0117 233.9);
+      --neutral-11: oklch(46.6% 0.0102 233.9);
+      --neutral-12: oklch(24.5% 0.0085 233.9);
+
+      --neutral-a1: color(display-p3 0.0627 0.0667 0.0667 / 0.013);
+      --neutral-a2: color(display-p3 0.0196 0.0235 0.1608 / 0.029);
+      --neutral-a3: color(display-p3 0.0157 0.0745 0.1294 / 0.07);
+      --neutral-a4: color(display-p3 0.0039 0.0471 0.1216 / 0.106);
+      --neutral-a5: color(display-p3 0.0078 0.0667 0.149 / 0.143);
+      --neutral-a6: color(display-p3 0.0039 0.0706 0.1608 / 0.179);
+      --neutral-a7: color(display-p3 0.0039 0.0941 0.1608 / 0.228);
+      --neutral-a8: color(display-p3 0.0039 0.0824 0.1294 / 0.309);
+      --neutral-a9: color(display-p3 0.0039 0.0549 0.0863 / 0.496);
+      --neutral-a10: color(display-p3 0 0.051 0.0784 / 0.537);
+      --neutral-a11: color(display-p3 0 0.0353 0.0588 / 0.655);
+      --neutral-a12: color(display-p3 0 0.0118 0.0275 / 0.879);
+
+      --neutral-contrast: #ffffff;
+      --neutral-surface: color(display-p3 1 1 1 / 80%);
+      --neutral-indicator: oklch(60.5% 0.0124 233.9);
+      --neutral-track: oklch(60.5% 0.0124 233.9);
+    }
+  }
+}
+:root,
+.light,
+.light-theme,
+.radix-themes {
+  --color-background: #f6f7f7;
+}
