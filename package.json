@@ -14,6 +14,8 @@
   },
   "dependencies": {
     "@base-ui-components/react": "^1.0.0-beta.3",
+    "@fontsource-variable/onest": "^5.2.10",
+    "@fontsource/open-sans": "^5.2.6",
     "@tailwindcss/vite": "^4.0.6",
     "@tanstack/react-devtools": "^0.2.2",
     "@tanstack/react-router": "^1.130.2",

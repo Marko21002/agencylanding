@@ -5,6 +5,8 @@
       "name": "agencylanding",
       "dependencies": {
         "@base-ui-components/react": "^1.0.0-beta.3",
+        "@fontsource-variable/onest": "^5.2.10",
+        "@fontsource/open-sans": "^5.2.6",
         "@tailwindcss/vite": "^4.0.6",
         "@tanstack/react-devtools": "^0.2.2",
         "@tanstack/react-router": "^1.130.2",
@@ -193,6 +195,10 @@
     "@floating-ui/react-dom": ["@floating-ui/react-dom@2.1.6", "", { "dependencies": { "@floating-ui/dom": "^1.7.4" }, "peerDependencies": { "react": ">=16.8.0", "react-dom": ">=16.8.0" } }, "sha512-4JX6rEatQEvlmgU80wZyq9RT96HZJa88q8hp0pBd+LrczeDI4o6uA2M+uvxngVHo4Ihr8uibXxH6+70zhAFrVw=="],
 
     "@floating-ui/utils": ["@floating-ui/utils@0.2.10", "", {}, "sha512-aGTxbpbg8/b5JfU1HXSrbH3wXZuLPJcNEcZQFMxLs3oSzgtVu6nFPkbbGGUvBcUjKV2YyB9Wxxabo+HEH9tcRQ=="],
+
+    "@fontsource-variable/onest": ["@fontsource-variable/onest@5.2.10", "", {}, "sha512-uUfsemjBrhiXEpo3dh4QXgdYsDAC9+6k2MnFPq20h117T8lmZX5JEsqJYoPKRBdqWOrOu9IvXiVRmfx5XryAng=="],
+
+    "@fontsource/open-sans": ["@fontsource/open-sans@5.2.6", "", {}, "sha512-mnfnUmBWQ+J220gqbibbzmKcc1kawV+lb3/Pspzu+Opnxza12oUffIg0ufG8g+3j1fnSznEWgyNV40MjtmJj6g=="],
 
     "@humanfs/core": ["@humanfs/core@0.19.1", "", {}, "sha512-5DyQ4+1JEUzejeK1JGICcideyfUbGixgS9jNgex5nqkW+cY7WZhxBigmieN5Qnw9ZosSNVC9KQKyb+GUaGyKUA=="],
 

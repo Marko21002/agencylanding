@@ -1,18 +1,17 @@
 @import 'tailwindcss';
 @import './theme.css';
+@import '@fontsource-variable/onest';
 
 body {
   @apply m-0;
   font-family:
-    -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu',
-    'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+    'Onest', sans-serif; /* Fallback to system fonts if Onest is not available */
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family:
-    source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+  font-family: 'Onest', source-code-pro, Menlo, Monaco, Consolas, 'Courier New';
 }
 @theme {
   --color-accent-1: var(--accent-1);

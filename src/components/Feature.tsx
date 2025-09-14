@@ -2,7 +2,7 @@ import { CancelCircleHalfDotIcon } from './icons'
 
 export default function Feature() {
   return (
-    <div className="flex flex-col items-center gap-12 pt-24 px-4">
+    <div className="flex flex-col items-center gap-12 pt-24 px-4 bg-background">
       <div className="flex flex-col gap-12">
         <h1 className="text-2xl text-center font-bold text-neutral-12">
           A Bad Website Costs You Sales. Every Single Day
